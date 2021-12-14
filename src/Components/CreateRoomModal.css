@@ -1,0 +1,203 @@
+.create-room-modal-bg {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.205);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+.create-room-modal {
+  width: 500px;
+  height: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  position: relative;
+}
+.crm-titles {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 35px;
+  width: 350px;
+  justify-content: space-evenly;
+  border-bottom: 1px solid rgb(207, 207, 207);
+  padding-bottom: 10px;
+}
+.crm-title-type {
+  font-size: 23px;
+  font-weight: 500;
+  color: rgb(192, 192, 192);
+  cursor: pointer;
+  transition: 200ms all;
+}
+.crm-error {
+  color: crimson;
+  font-size: 13px;
+  font-weight: 400;
+}
+.crm-title-type.active {
+  color: #00a389;
+}
+.crm-join-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3px;
+}
+.crm-join-input {
+  outline: none;
+  border: 1px solid rgb(207, 207, 207);
+  width: 250px;
+  height: 35px;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+.crm-join-btn {
+  margin-top: 30px;
+  margin-bottom: 55px;
+  width: 140px;
+  height: 35px;
+  border: none;
+  outline: none;
+  background-color: #00a389;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 7px;
+  transition: 300ms all;
+  cursor: pointer;
+}
+.crm-join-btn:hover {
+  background-color: #00b99a;
+}
+.create-room-modal > .MuiSvgIcon-root {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: rgb(128, 128, 128);
+  font-size: 25px;
+  cursor: pointer;
+  padding: 3px;
+}
+.create-room-modal > .MuiSvgIcon-root:hover {
+  color: crimson;
+}
+.crm-create-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3px;
+}
+.crm-create-input {
+  outline: none;
+  border: 1px solid rgb(207, 207, 207);
+  width: 250px;
+  height: 35px;
+  padding: 0 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.crm-create-btn {
+  margin-top: 20px;
+  margin-bottom: 55px;
+  width: 140px;
+  height: 35px;
+  border: none;
+  outline: none;
+  background-color: #00a389;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 7px;
+  transition: 300ms all;
+  cursor: pointer;
+}
+.crm-create-btn:hover {
+  background-color: #00b99a;
+}
+/* ROOM CREATED */
+.crm-room-created {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.crm-room-created h1 {
+  margin-top: 30px;
+  margin-bottom: 35px;
+  width: 350px;
+  border-bottom: 1px solid rgb(207, 207, 207);
+  padding-bottom: 10px;
+  font-size: 23px;
+  font-weight: 500;
+  color: #00a389;
+  cursor: pointer;
+  transition: 200ms all;
+  text-align: center;
+}
+.crm-room-created img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+.crm-room-created input {
+  position: absolute;
+  opacity: 0;
+  width: 80px;
+  top: 255px;
+  cursor: pointer;
+}
+.crm-room-created button {
+  outline: none;
+  border: none;
+  background-color: white;
+  color: #00a389;
+  border: 1px solid #ccc;
+  padding: 1px 5px;
+  border-radius: 5px;
+  font-size: 10px;
+}
+.crm-room-created h2 {
+  margin-top: 20px;
+  font-size: 23px;
+  color: rgb(27, 27, 27);
+  font-weight: 600;
+  max-width: 300px;
+  text-align: center;
+  overflow: hidden;
+}
+.crm-room-created p {
+  font-size: 15px;
+  color: rgb(27, 27, 27);
+  font-weight: 400;
+  margin-top: 3px;
+  margin-bottom: 30px;
+  max-width: 300px;
+  text-align: center;
+  overflow: hidden;
+}
+button.cmr-goroom {
+  margin-bottom: 50px;
+  margin-bottom: 55px;
+  width: 140px;
+  height: 35px;
+  border: none;
+  outline: none;
+  background-color: #00a389;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 7px;
+  transition: 300ms all;
+  cursor: pointer;
+}
+button.cmr-goroom:hover {
+  background-color: #00b99a;
+}

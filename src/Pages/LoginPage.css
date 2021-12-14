@@ -1,0 +1,78 @@
+.login {
+  width: 100%;
+  height: 100vh;
+}
+.login-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login-brand {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7%;
+}
+.login-brand .MuiSvgIcon-root {
+  font-size: 150px;
+  color: #00b698;
+}
+.login-brand p {
+  color: #00b698;
+  margin-top: -20px;
+  font-size: 40px;
+}
+.login-btn {
+  position: absolute;
+  bottom: 27%;
+  z-index: 2;
+  background-color: #7f7fd3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  padding: 10px 25px;
+  box-shadow: 0px 5px 10px rgb(102, 102, 102);
+  cursor: pointer;
+  transition: all 300ms;
+}
+.login-btn:hover {
+  background-color: #9090d1;
+}
+.login-btn p {
+  font-size: 17px;
+  font-weight: 600;
+  color: white;
+}
+.login-btn img {
+  margin-left: 10px;
+  width: 20px;
+}
+.circle {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30%;
+  border-radius: 50% 50% 0% 0%;
+  background: #7f7fd5;
+  background: -webkit-linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
+  background: linear-gradient(to bottom, #91eae4, #86a8e7, #7070d6);
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1400px) {
+  .login-brand .MuiSvgIcon-root {
+    font-size: 120px;
+    color: #00b698;
+  }
+  .login-brand p {
+    color: #00b698;
+    margin-top: -20px;
+    font-size: 35px;
+  }
+}
